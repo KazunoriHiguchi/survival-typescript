@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
-  parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint'],
+  parser: "@typescript-eslint/parser",
+  plugins: ["@typescript-eslint"],
   env: {
     browser: true,
     es2021: true,
@@ -18,8 +18,8 @@ module.exports = {
     "airbnb-typescript/base",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
   ],
-  rules:{
+  rules: {
     "import/prefer-default-export": "off",
     "@typescript-eslint/quotes": ["error", "double"],
-  }
-}
+  },
+};
